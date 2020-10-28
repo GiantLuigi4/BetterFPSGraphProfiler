@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.tfc.betterfpsgraphprofiler.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "better_fps_graph_profiler.refmap.json",
+  "client": [
+    "EntityRenderer",
+    "TileEntityRenderer",
+    "WorldRenderer",
+    "ParticleManager"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
